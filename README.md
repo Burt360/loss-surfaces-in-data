@@ -1,0 +1,5 @@
+This project examines neural network loss surfaces not just as functions of weights—in "weightspace"—but also as functions of data—in "dataspace."
+
+While more work remains to be done, it's a first go at creating these loss surfaces in dataspace and then comparing them with those in weightspace. The goal of this comparison is to verify the claim that "flat minimizers" (in weightspace) generalize better than "sharp" ones, by checking whether these flat minimizers in weightspace correspond to flat minimizers in "dataspace," which more immediately correspond to better generalization.
+
+Take a look at `swissroll.pdf`, or if you're feeling adventurous go ahead and follow along in the corresponding notebook `swissroll.ipynb`. The other notebook, `linear-regression.ipynb`, simply contains some first attempts at plotting loss surfaces in weightspace.
